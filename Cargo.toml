@@ -8,14 +8,14 @@ repository = "https://github.com/Stoeoef/spade"
 readme = "README.md"
 keywords = ["delaunay", "triangulation", "rtree", "geometry", "interpolation"]
 license = "MIT/Apache-2.0"
-edition = "2018"
+edition = "2021"
 
 [features]
 serde_serialize = ["num/serde", "serde"]
 
 [dependencies]
 cgmath = "0.18"
-nalgebra = "0.27"
+nalgebra = "0.30"
 num = "0.4"
 clamp = "0.1"
 smallvec = "1.2"
